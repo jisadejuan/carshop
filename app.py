@@ -48,6 +48,7 @@ def products():
         ]
 
 return render_template('public/products.html', categories=categories)
+}
 
 @app.route('/About')
 def about():
