@@ -48,3 +48,345 @@
 
 {% endblock %}
 
+
+<!--
+
+{% extends 'base.html' %}
+{% block content %}
+
+<section class="products-page">
+  <div class="products-container">
+    
+    <aside class="products-sidebar">
+      <h2>Categories</h2>
+      <ul>
+        <li><a href="#luxury">Luxury Sports Cars</a></li>
+        <li><a href="#classic">Classic Sports Cars</a></li>
+        <li><a href="#modern">Modern Supercars</a></li>
+        <li><a href="#track">Track-Ready Cars</a></li>
+      </ul>
+    </aside>
+
+    (Product List)
+
+    <div class="products-list">
+
+      (Luxury Sports Cars)
+
+      <div id="luxury" class="products-section">
+        <h2>Luxury Sports Cars</h2>
+        <div class="products-grid">
+
+          <div class="product-card">
+            <img src="static/images/Ferrari_F8_Tributo.png" alt="Ferrari F8 Tributo">
+            <h3>Ferrari F8 Tributo</h3>
+            <div class="product-info">
+              <p class="price">₱15,000,000</p>
+              <p class="stock">3 units left</p>
+              <p class="description">Twin-turbo V8 delivering 710 hp with breathtaking design.</p>
+            </div>
+            <div class="product-actions">
+              <button class="btn-details">View Details</button>
+              <button class="btn-buy">Buy Now</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img src="static/images/Aston_martin.png" alt="Aston Martin Vantage">
+            <h3>Aston Martin Vantage</h3>
+            <div class="product-info">
+              <p class="price">₱12,000,000</p>
+              <p class="stock">5 units left</p>
+              <p class="description">A stylish British sports car with a twin‑turbo V8 engine.</p>
+            </div>
+            <div class="product-actions">
+              <button class="btn-details">View Details</button>
+              <button class="btn-buy">Buy Now</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img src="static/images/maserati_mc20.png" alt="Maserati MC20">
+            <h3>Maserati MC20</h3>
+            <div class="product-info">
+              <p class="price">₱14,500,000</p>
+              <p class="stock">2 units left</p>
+              <p class="description">Carbon‑fiber supercar with Nettuno V6 engine.</p>
+            </div>
+            <div class="product-actions">
+              <button class="btn-details">View Details</button>
+              <button class="btn-buy">Buy Now</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img src="static/images/bentley_continental.png" alt="Bentley Continental GT">
+            <h3>Bentley Continental GT</h3>
+            <div class="product-info">
+              <p class="price">₱10,800,000</p>
+              <p class="stock">4 units left</p>
+              <p class="description">Luxury grand tourer with handcrafted interior and W12 engine.</p>
+            </div>
+            <div class="product-actions">
+              <button class="btn-details">View Details</button>
+              <button class="btn-buy">Buy Now</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img src="static/images/lexus-lc500.png" alt="Lexus LC 500">
+            <h3>Lexus LC 500</h3>
+            <div class="product-info">
+              <p class="price">₱9,500,000</p>
+              <p class="stock">6 units left</p>
+              <p class="description">Japanese luxury coupe with naturally aspirated V8.</p>
+            </div>
+            <div class="product-actions">
+              <button class="btn-details">View Details</button>
+              <button class="btn-buy">Buy Now</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      (Classic Sports Cars)
+
+     <div id="classic" class="products-section">
+  <h2>Classic Sports Cars</h2>
+  <div class="products-grid">
+
+    <div class="product-card">
+      <img src="static/images/porsche-911.png" alt="Porsche 911 Classic">
+      <h3>Porsche 911 Classic</h3>
+      <div class="product-info">
+        <p class="price">₱6,000,000</p>
+        <p class="stock">2 units left</p>
+        <p class="description">Iconic rear‑engine sports car with timeless design.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="static/images/ford-mustang-1969.png" alt="Ford Mustang 1969">
+      <h3>Ford Mustang 1969</h3>
+      <div class="product-info">
+        <p class="price">₱4,500,000</p>
+        <p class="stock">3 units left</p>
+        <p class="description">Classic American muscle car with roaring V8 power.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="static/images/chevrolet-corvette-1963.png" alt="Chevrolet Corvette 1963">
+      <h3>Chevrolet Corvette 1963</h3>
+      <div class="product-info">
+        <p class="price">₱5,200,000</p>
+        <p class="stock">1 unit left</p>
+        <p class="description">Split‑window Stingray, a true collector’s gem.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="static/images/jaguar-e-type.png" alt="Jaguar E-Type">
+      <h3>Jaguar E-Type</h3>
+      <div class="product-info">
+        <p class="price">₱7,800,000</p>
+        <p class="stock">2 units left</p>
+        <p class="description">British classic praised for beauty and performance.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="static/images/toyota-2000gt.png" alt="Toyota 2000GT">
+      <h3>Toyota 2000GT</h3>
+      <div class="product-info">
+        <p class="price">₱9,000,000</p>
+        <p class="stock">1 unit left</p>
+        <p class="description">Rare Japanese classic, limited production sports coupe.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+      (Modern Supercars)
+
+     <div id="modern" class="products-section">
+  <h2>Modern Supercars</h2>
+  <div class="products-grid">
+
+    <div class="product-card">
+      <img src="static/images/lamborghini-huracan-evo.png" alt="Lamborghini Huracán EVO">
+      <h3>Lamborghini Huracán EVO</h3>
+      <div class="product-info">
+        <p class="price">₱20,000,000</p>
+        <p class="stock">3 units left</p>
+        <p class="description">V10 supercar with advanced aerodynamics and AWD.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="static/images/bugatti-chiron.png" alt="Bugatti Chiron">
+      <h3>Bugatti Chiron</h3>
+      <div class="product-info">
+        <p class="price">₱150,000,000</p>
+        <p class="stock">1 unit left</p>
+        <p class="description">Quad-turbo W16 hypercar, record-breaking speed and luxury.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="static/images/Koenigsegg-Jesko.png" alt="Koenigsegg Jesko">
+      <h3>Koenigsegg Jesko</h3>
+      <div class="product-info">
+        <p class="price">₱120,000,000</p>
+        <p class="stock">2 units left</p>
+        <p class="description">Swedish hypercar engineered for extreme track performance.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="static/images/pagani-huayra.png" alt="Pagani Huayra">
+      <h3>Pagani Huayra</h3>
+      <div class="product-info">
+        <p class="price">₱90,000,000</p>
+        <p class="stock">2 units left</p>
+        <p class="description">Artful Italian hypercar with AMG V12 and bespoke design.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="static/images/rimac_nevera.png" alt="Rimac Nevera">
+      <h3>Rimac Nevera</h3>
+      <div class="product-info">
+        <p class="price">₱95,000,000</p>
+        <p class="stock">3 units left</p>
+        <p class="description">Electric hypercar with 1,900 hp and cutting‑edge tech.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+      
+    (Track-Ready Cars)
+
+ <div id="track" class="products-section">
+  <h2>Track-Ready Cars</h2>
+  <div class="products-grid">
+
+    <div class="product-card">
+      <img src="static/images/McLaren_720S.png" alt="McLaren 720S">
+      <h3>McLaren 720S</h3>
+      <div class="product-info">
+        <p class="price">₱18,000,000</p>
+        <p class="stock">2 units left</p>
+        <p class="description">Lightweight track monster with twin‑turbo V8.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="static/images/Porsche_911_GT3_RS.png" alt="Porsche 911 GT3 RS">
+      <h3>Porsche 911 GT3 RS</h3>
+      <div class="product-info">
+        <p class="price">₱16,000,000</p>
+        <p class="stock">4 units left</p>
+        <p class="description">Track‑focused Porsche with naturally aspirated flat‑six.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="static/images/lotus_exige.png" alt="Lotus Exige">
+      <h3>Lotus Exige</h3>
+      <div class="product-info">
+        <p class="price">₱7,500,000</p>
+        <p class="stock">3 units left</p>
+        <p class="description">Agile British sports car built for precision handling.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="static/images/NissaN_GT-R_Nismo.png" alt="Nissan GT-R Nismo">
+      <h3>Nissan GT-R Nismo</h3>
+      <div class="product-info">
+        <p class="price">₱12,500,000</p>
+        <p class="stock">2 units left</p>
+        <p class="description">High‑performance Japanese legend with twin‑turbo V6.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="static/images/BMW_M4_GTS.png" alt="BMW M4 GTS">
+      <h3>BMW M4 GTS</h3>
+      <div class="product-info">
+        <p class="price">₱11,000,000</p>
+        <p class="stock">3 units left</p>
+        <p class="description">Track‑ready coupe with water‑injection turbo system.</p>
+      </div>
+      <div class="product-actions">
+        <button class="btn-details">View Details</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+
+{% endblock %}
+-->
