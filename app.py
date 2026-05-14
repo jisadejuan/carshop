@@ -23,21 +23,21 @@ def products():
                 "price": "₱12,000,000",
                 "stock": "5 units left",
                 "description": "A stylish British sports car with a twin‑turbo V8 engine."
-            }
+            },
            {
                 "name": "Maserati MC20",
                 "image": "static/images/maserati_mc20.png",
                 "price": "₱14,500,000",
                 "stock": "2 units left",
                 "description": "Carbon‑fiber supercar with Nettuno V6 engine."
-            }
+            },
            {
                 "name": "Bentley Continental GT",
                 "image": "static/images/bentley_continental.png",
                 "price": "₱10,800,000",
                 "stock": "4 units left",
                 "description": "Luxury grand tourer with handcrafted interior and W12 engine."
-            }
+            },
           {
                 "name": "Lexus LC 500",
                 "image": "static/images/lexus-lc500.png",
