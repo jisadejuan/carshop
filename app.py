@@ -46,7 +46,7 @@ def products():
                 "description": "Japanese luxury coupe with naturally aspirated V8."
             }
         ]
-}
+
 return render_template('public/products.html', categories=categories)
 
 @app.route('/About')
