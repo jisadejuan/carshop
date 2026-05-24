@@ -44,7 +44,44 @@ def products():
                 "stock": "6 units left",
                 "description": "Japanese luxury coupe with naturally aspirated V8."
             }
-        ]
+        ],
+        "Track Ready Cars": [
+            {
+                "name": "McLaren 720S",
+                "image": "static/images/McLaren_720S.png",
+                "price": "₱18,000,000",
+                "stock": "2 units left",
+                "description": "Lightweight track monster with twin‑turbo V8."
+            },
+            {
+                "name": "Porsche 911 GT3 RS",
+                "image": "static/images/Porsche_911_GT3_RS.png",
+                "price": "₱16,000,000",
+                "stock": "4 units left",
+                "description": "Track‑focused Porsche with naturally aspirated flat‑six."
+            },
+            {
+                "name": "Lotus Exige",
+                "image": "static/images/lotus_exige.png",
+                "price": "₱7,500,000",
+                "stock": "3 units left",
+                "description": "Agile British sports car built for precision handling."
+            },
+            {
+                "name": "Nissan GT-R Nismo
+                "image": "static/images/NissaN_GT-R_Nismo.png",
+                "price": "₱12,500,000",
+                "stock": "4 units left",
+                "description": "High‑performance Japanese legend with twin‑turbo V6."
+            },
+            {
+                "name": "BMW M4 GTS",
+                "image": "static/images/BMW_M4_GTS.png",
+                "price": "₱11,000,000",
+                "stock": "3 units left",
+                "description": "Track‑ready coupe with water‑injection turbo system."
+            }
+                ]
     }
 
     return render_template('public/products.html', categories=categories)
