@@ -68,7 +68,7 @@ def products():
                 "description": "Agile British sports car built for precision handling."
             },
             {
-                "name": "Nissan GT-R Nismo
+                "name": "Nissan GT-R Nismo",
                 "image": "static/images/NissaN_GT-R_Nismo.png",
                 "price": "₱12,500,000",
                 "stock": "4 units left",
