@@ -45,6 +45,43 @@ def products():
                 "description": "Japanese luxury coupe with naturally aspirated V8."
             }
         ],
+         "Modern Supercars": [
+            {
+                "name": "Lamborghini Huracán EVO",
+                "image": "static/images/lamborghini-huracan-evo.png",
+                "price": "₱20,000,000",
+                "stock": "3 units left",
+                "description": "V10 supercar with advanced aerodynamics and AWD."
+            },
+            {
+                "name": "Bugatti Chiron",
+                "image": "static/images/bugatti-chiron.png",
+                "price": "₱150,000,000",
+                "stock": "1 unit left",
+                "description": "Quad-turbo W16 hypercar, record-breaking speed and luxury."
+            },
+            {
+                "name": "Koenigsegg Jesko",
+                "image": "static/images/Koenigsegg-Jesko.png",
+                "price": "₱120,000,000",
+                "stock": "2 units left",
+                "description": "Swedish hypercar engineered for extreme track performance."
+            },
+            {
+                "name": "Pagani Huayra",
+                "image": "static/images/pagani-huayra.png",
+                "price": "₱90,000,000",
+                "stock": "2 units left",
+                "description": "Artful Italian hypercar with AMG V12 and bespoke design."
+            },
+            {
+                "name": "Rimac Nevera",
+                "image": "static/images/rimac_nevera.png",
+                "price": "₱95,000,000",
+                "stock": "3 units left",
+                "description": "Electric hypercar with 1,900 hp and cutting‑edge tech."
+            }
+                ],
         "Track Ready Cars": [
             {
                 "name": "McLaren 720S",
