@@ -45,6 +45,43 @@ def products():
                 "description": "Japanese luxury coupe with naturally aspirated V8."
             }
         ],
+        "Classic Sports Cars": [
+            {
+                "name": "Porsche 911 Classic",
+                "image": "static/images/porsche-911.png",
+                "price": "₱6,000,000",
+                "stock": "2 units left",
+                "description": "Iconic rear‑engine sports car with timeless design."
+            },
+            {
+                "name": "Ford Mustang 1969",
+                "image": "static/images/ford-mustang-1969.png",
+                "price": "₱4,500,000",
+                "stock": "5 units left",
+                "description": "A stylish British sports car with a twin‑turbo V8 engine."
+            },
+            {
+                "name": "Chevrolet Corvette 1963",
+                "image": "static/images/chevrolet-corvette-1963.png",
+                "price": "₱5,200,000",
+                "stock": "3 units left",
+                "description": "Classic American muscle car with roaring V8 power."
+            },
+            {
+                "name": "Jaguar E-Type",
+                "image": "static/images/jaguar-e-type.png",
+                "price": "₱7,800,000",
+                "stock": "2 units left",
+                "description": "British classic praised for beauty and performance."
+            },
+            {
+                "name": "Toyota 2000GT",
+                "image": "static/images/toyota-2000gt.png",
+                "price": "₱9,000,000",
+                "stock": "1 units left",
+                "description": "Rare Japanese classic, limited production sports coupe."
+            }
+        ],
          "Modern Supercars": [
             {
                 "name": "Lamborghini Huracán EVO",
